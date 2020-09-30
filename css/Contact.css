@@ -1,65 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&family=Dosis&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
 body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    background: #c3aed6;
+}
+
+#Query {
+    height: 30em;
+}
+
+#footer {
     background: #212121;
-    overflow-x: hidden;
+    color: wheat;
+    text-align: center;
+    padding: 2em;
 }
 
-img {
-    height: 5em;
-    padding-left: 4em;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
+.content {
+    padding-bottom: 50px;
 }
 
-h1 {
-    font-family: 'Sacramento', cursive;
-    /* margin: 50px;
-    padding: 50px; */
-    padding-top: 1.5em;
-    font-size: 5em;
-    width: 100%;
-    color: #0d7377;
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+.row {
+    position: relative;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h2 {
-    font-weight: normal;
-    line-height: 2;
-    font-size: 4em;
-    color: #0d7377;
+#left-row {
+    margin-top: 25%;
     text-align: center;
 }
 
-h3 {
-    color: #0d7377;
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 25%;
-    top: 10%;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 25%;
-    top: 20%;
-    bottom: 50%;
+#right-row {
+    margin: 10% auto 10% auto;
 }
 
 .navbar-toggler {
@@ -84,44 +59,13 @@ p {
 
 .navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.2);
-    transition: background 1000ms;
-}
-
-.content {
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.5rem;
-}
-
-.profile {
-    text-align: center;
-}
-
-.profile-pic {
-    padding: 10px;
-    height: 25%;
-    width: 25%;
-}
-
-.first-content {
-    background: #c3aed6;
-    text-align: center;
-    position: relative;
-    padding-top: 30%;
-    padding-bottom: 20%;
-}
-
-.middle-container {
-    background-color: #a5ecd7;
-}
-
-.after-middle {
-    background-color: whitesmoke;
+    transition: background 5000ms;
 }
 
 #footer {
     background: #212121;
     color: wheat;
+    /* top: 100%; */
     text-align: center;
     padding: 2em;
 }
@@ -138,25 +82,5 @@ p {
 .fab {
     padding-left: 20px;
     padding-right: 30px;
-}
-
-@media (max-width: 800px) {
-    .top-cloud {
-        display: none;
-    }
-    h1 {
-        font-size: 4em;
-    }
-    h2 {
-        font-size: 3em;
-    }
-}
-
-@media (max-width: 500px) {
-    h1 {
-        font-size: 3em;
-    }
-    h2 {
-        font-size: 2em;
-    }
+    color: beige;
 }
