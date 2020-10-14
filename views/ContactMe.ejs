@@ -9,11 +9,11 @@
     <meta name="description" content="A personal portfolio Website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/Project.css">
+    <link rel="stylesheet" type="text/css" href="/css/Contact.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -29,20 +29,20 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="/Public/Index.html" class="nav-link">Home</a>
+                    <a href="/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#jump" class="nav-link">About</a>
+                    <a href="/#jump" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/Public/ContactMe.html" class="nav-link">Contact</a>
+                    <a href="contact" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#stack" class="nav-link">Tech Stack</a>
+                    <a href="/#stack" class="nav-link">Tech Stack</a>
                 </li>
                 <!-- To add project sections functionality -->
                 <li class="nav-item">
-                    <a href="/Public/Projects.html" class="nav-link">Projects</a>
+                    <a href="projects" class="nav-link">Projects</a>
                 </li>
                 <!-- <li class="nav-item"> Resume Section and Projects will be added
                     <a href="#" class="nav-link">Resume</a>
@@ -51,25 +51,41 @@
         </div>
     </nav>
     <div class="content">
-        <div class="container" style="text-align: center;">
-            <div class="display-4" style="margin-bottom: 40px;">List of projects made so far</div>
-        </div>
-        <div class="container">
-            <img src="/Images/Portfolio.png" style="height: 80%; width: 100%;">
-
-
-            <div class="title">
-                <a href="https://github.com/ripu2/Personal-Website-Portfolio">Portfolio Website</a>
+        <div class="row">
+            <div class="col-lg-6 col-md-12" id="left-row">
+                <div class="display-4">Hey there, please write your query here,will get back in touch at the earliest.</div>
             </div>
-
-            <div class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, rem.<br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, quod. Harum itaque delectus <br>inventore temporibus magni! Voluptatum fuga reiciendis Lorem
-                ipsum dolor sit amet.<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, velit. voluptatem. </div>
-
+            <div class="col-lg-6 col-md-12" id="right-row">
+                <div class="container">
+                    <form action="/contact" method="POST" autocomplete="off">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputFN">First name</label>
+                                <input type="text" name="FirstName" class="form-control" id="inpuFN" placeholder="First name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputLN">Last Name</label>
+                                <input type="text" name="LastName" class="form-control" id="inputLN" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="text" name="Email" class="form-control" id="inputEmail" placeholder="someone@abc.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPhone">Contact</label>
+                            <input type="text" name="Contact" class="form-control" id="inputPhone" placeholder="phone number (Integer)">
+                        </div>
+                        <div class="form-group">
+                            <label for="Query">Query</label>
+                            <textarea type="text" name="Query" class="form-control" id="Query"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-
-
     <footer id="footer">
         <a href="https://www.instagram.com/4742ripu/?hl=en" class="icon-links" style="text-decoration: none;"><i class="fab fa-instagram"></i></a>
         <a href="https://github.com/ripu2" class="icon-links" style="text-decoration: none;"><i class="fab fa-github"></i></a>
@@ -78,9 +94,6 @@
         <p id="footer">© 2020-All rights reserved. Made with ❤️ by<a href="#" class="bottom-link"><strong> Ripu</strong> </a> </p>
     </footer>
 
-
-    <script src="https://kit.fontawesome.com/94d26e8b6b.js" crossorigin="anonymous"></script>
-    <script src="" async defer></script>
     <script>
         $(function() {
             $(document).scroll(function() {
@@ -90,6 +103,7 @@
         });
     </script>
     <script src="https://kit.fontawesome.com/94d26e8b6b.js" crossorigin="anonymous"></script>
+    <script src="" async defer></script>
 </body>
 
 </html>
