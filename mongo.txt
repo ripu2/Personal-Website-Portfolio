@@ -1,0 +1,2 @@
+mongo "mongodb+srv://details.i5lxd.mongodb.net/<dbname>" --username ripu
+mongodb+srv://ripu:<password>@details.i5lxd.mongodb.net/<dbname>?retryWrites=true&w=majority
