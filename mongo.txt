@@ -1,2 +1,122 @@
 mongo "mongodb+srv://details.i5lxd.mongodb.net/<dbname>" --username ripu
 mongodb+srv://ripu:<password>@details.i5lxd.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+///
+
+    <div class="after-middle" id="stack">
+        <div class="container">
+            <h2 style="padding-bottom: 20px;">Tech Stack</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/javascript-js-seeklogo.com.svg" alt="" class="Logo" style="margin-left: 37%;">
+                    <h4>JavaScipt</h4>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore, voluptate quidem minus eos cupiditate veniam facere sit eveniet maxime odio nam pariatur sunt. Ratione dolorem reprehenderit perferendis consequuntur et.</p> -->
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/nodejs-seeklogo.com.svg" alt="" class="Logo">
+                    <h4>Node.JS</h4>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore, voluptate quidem minus eos cupiditate veniam facere sit eveniet maxime odio nam pariatur sunt. Ratione dolorem reprehenderit perferendis consequuntur et.</p> -->
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/React.png" alt="" class="Logo">
+                    <h4>React.JS</h4>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore, voluptate quidem minus eos cupiditate veniam facere sit eveniet maxime odio nam pariatur sunt. Ratione dolorem reprehenderit perferendis consequuntur et.</p> -->
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/Angular.png" alt="" class="Logo">
+                    <h4>Angular</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/vuejs-seeklogo.com.svg" alt="" class="Logo">
+                    <h4>Vue.js</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/HTMl.png" alt="" class="Logo">
+                    <h4>HTMl5</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/CSS.png" alt="" class="Logo">
+                    <h4>CSS3</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/bootstrap-seeklogo.com.svg" alt="" class="Logo">
+                    <h4>Bootstrap 4</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/Java.png" alt="" class="Logo">
+                    <h4>Core Java</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/mongodb-seeklogo.com.svg" alt="" class="Logo">
+                    <h4>MongoDB</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/SQL.png" class="Logo">
+                    <h4>MySQL</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/py.png" alt="" class="Logo">
+                    <h4>Python</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-4  col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/DS algo.png" alt="" class="Logo">
+                    <h4>Data Structures and Algorithms</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/C.png" alt="" class="Logo" style="margin-left: 35%;">
+                    <h4>C</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-xs-1" id="icons">
+                <div class="container">
+                    <img src="/Images/typescript.svg" alt="" class="Logo" style="padding-left: 20%;">
+                    <h4>Typescript</h4>
+
+                </div>
+            </div>
+
+        </div>
+    </div>

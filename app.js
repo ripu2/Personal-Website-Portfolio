@@ -19,7 +19,7 @@ app.post("/contact", (req, res) => {
     data.save().then(() => {
         res.redirect("/")
     }).catch(
-
+        
     )
 })
 app.get("/projects", (req, res) => {
