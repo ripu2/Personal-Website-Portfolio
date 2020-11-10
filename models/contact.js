@@ -1,8 +1,9 @@
+require('dotenv').config();
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://admin_ripu:xSjDMwjvb5qd1tyf@cluster1.y3gpy.mongodb.net/query", {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true
+mongoose.connect(process.env.MONGO, {
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useUnifiedTopology: true,
 });
 
 const query = mongoose.model('query', {
